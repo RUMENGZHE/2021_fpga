@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Sun Oct 31 17:23:57 2021
+# Process ID: 14136
+# Current directory: F:/Microsoft Edge/my_fpga/Vivado/Target_Detection/Target_Detection.runs/BlockDesign_axi_dynclk_0_0_synth_1
+# Command line: vivado.exe -log BlockDesign_axi_dynclk_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BlockDesign_axi_dynclk_0_0.tcl
+# Log file: F:/Microsoft Edge/my_fpga/Vivado/Target_Detection/Target_Detection.runs/BlockDesign_axi_dynclk_0_0_synth_1/BlockDesign_axi_dynclk_0_0.vds
+# Journal file: F:/Microsoft Edge/my_fpga/Vivado/Target_Detection/Target_Detection.runs/BlockDesign_axi_dynclk_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source BlockDesign_axi_dynclk_0_0.tcl -notrace
