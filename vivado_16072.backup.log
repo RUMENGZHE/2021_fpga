@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun 20 21:37:01 2021
+# Process ID: 16072
+# Current directory: E:/Project/FPGA_Xilinx/PYNQ/Target_Detection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13028 E:\Project\FPGA_Xilinx\PYNQ\Target_Detection\Target_Detection.xpr
+# Log file: E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/vivado.log
+# Journal file: E:/Project/FPGA_Xilinx/PYNQ/Target_Detection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/Target_Detection.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Project/FPGA_Xilinx/PYNQ/custom_ip/ip_repo/AXI_VIP_Frame_Difference_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Project/FPGA_Xilinx/PYNQ/Target_Detection/IP_DIY'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 950.680 ; gain = 298.605
+update_compile_order -fileset sources_1
+open_bd_design {E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/Target_Detection.srcs/sources_1/bd/BlockDesign/BlockDesign.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - vdma_1
+Adding component instance block -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk
+Adding component instance block -- openedv.com:user:DVI_Transmitter:1.0 - DVI_Transmitter
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out
+Adding component instance block -- alientek.com:user:ov5640_capture_data:1.0 - ov5640_capture_data
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_100M
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - vdma_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:module_ref:AXI_VIP_Frame_Difference:1.0 - AXI_VIP_Frame_Differ_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_dynclk/LOCKED_O(undef) and /DVI_Transmitter/reset_n(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_dynclk/LOCKED_O(undef) and /ov5640_capture_data/rst_n(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640_capture_data/cmos_frame_ce(undef) and /v_vid_in_axi4s/vid_io_in_ce(ce)
+Successfully read diagram <BlockDesign> from BD file <E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/Target_Detection.srcs/sources_1/bd/BlockDesign/BlockDesign.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1495.484 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 20 22:02:28 2021...

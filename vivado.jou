@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Mon Nov 15 16:39:49 2021
+# Process ID: 4464
+# Current directory: F:/Microsoft Edge/my_fpga/Vivado/Target_Detection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13332 F:\Microsoft Edge\my_fpga\Vivado\Target_Detection\Target_Detection.xpr
+# Log file: F:/Microsoft Edge/my_fpga/Vivado/Target_Detection/vivado.log
+# Journal file: F:/Microsoft Edge/my_fpga/Vivado/Target_Detection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Microsoft Edge/my_fpga/Vivado/Target_Detection/Target_Detection.xpr}
+update_compile_order -fileset sources_1

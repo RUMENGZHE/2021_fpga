@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun 20 21:37:01 2021
+# Process ID: 16072
+# Current directory: E:/Project/FPGA_Xilinx/PYNQ/Target_Detection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13028 E:\Project\FPGA_Xilinx\PYNQ\Target_Detection\Target_Detection.xpr
+# Log file: E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/vivado.log
+# Journal file: E:/Project/FPGA_Xilinx/PYNQ/Target_Detection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/Target_Detection.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/Project/FPGA_Xilinx/PYNQ/Target_Detection/Target_Detection.srcs/sources_1/bd/BlockDesign/BlockDesign.bd}
